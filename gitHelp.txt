@@ -23,8 +23,8 @@ git diff
 git status
 git add -A
 git commit -m "message"
-git pull master origin //master = branch to pull from, and origin = name of remote repository
-git push master origin //master = branch to push to, and origin = name of remote repository
+git pull origin master //master = branch to pull from, and origin = name of remote repository
+git push origin master //master = branch to push to, and origin = name of remote repository
 
 
 //create branch for desired feature
