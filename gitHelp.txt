@@ -1,0 +1,68 @@
+git config --global user.name UserName"
+git config --global user.email "emailName@gmail.com"
+git init
+git status
+//create a .gitignore file with the files you do not want uploaded
+git add -A
+//or
+git add *.py
+git status
+git reset clearEmail.py //removes file from tracked files
+
+//first commit:
+git add -A
+git status
+git commit -m "Message (be specific)"
+git log //shows the log you did
+
+//want to track existing remote project (maybe the one you commited, from somwhere else)
+git clone <url>
+git remote -v //list info about repository
+git branch -a //lists all branches in repository
+git diff
+git status
+git add -A
+git commit -m "message"
+git pull master origin //master = branch to pull from, and origin = name of remote repository
+git push master origin //master = branch to push to, and origin = name of remote repository
+
+
+//create branch for desired feature
+git branch <branch-name>
+git branch //will list all local branches
+git checkout <branch-name> //allows you to work on the branch
+git branch //you will now be working in that branch
+git status
+git add -A
+git commit -m "message"
+git push -u origin <branch-name> // -u tells git to associtate local <branch-name> with remote local <branch-name>
+git branch -a //shows all branches
+git pull
+git push
+
+//merge a branch
+git checkout master
+git pull origin master
+git branch --merged //shows what branches you have merged
+git merge <branch-name>
+git push origin master
+
+//deleting a branch
+git branch --merged //will show merged branch
+git branch -d <branch-name>
+git branch -a //we still have local branch
+git push origin --delete <branch-name>
+git branch -a //no longer have local branch
+
+//create a new repository on the command line
+README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/username/file.git
+git push -u origin master
+
+//or push an existing repository from the command line
+git remote add origin https://github.com/username/file.git
+git push -u origin master
+
