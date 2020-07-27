@@ -1,0 +1,17 @@
+RUN GIT LARGE:
+
+- git init 
+- git remote add origin "MY-URL"
+- git lfs track "*.weights" 
+- git add yolov3.weights
+- git commit -m "Add Comments"
+(git commit -m แล้ว Error ใส่ email บัญชี github เราที่จะ Upload)
+git config --global user.name "John Doe"	(MAKE SURE TO DO IT WITH QOUTES)
+git config --global user.email "johndoe@gmail.com" (MAKE SURE TO DO IT WITH QOUTES)
+
+
+- git push -u origin master
+(ใส่รหัlบัญชี github เราที่จะ Upload)
+OR
+- git pull --rebase origin master
+- git push origin master
