@@ -11,7 +11,7 @@ git config --global user.email "johndoe@gmail.com" (MAKE SURE TO DO IT WITH QOUT
 
 https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
 
-- git push -u origin master
+- git push -u origin master (MAKE SURE TO SPELL ORIGIN RIGHT)
 (ใส่รหัlบัญชี github เราที่จะ Upload)
 OR
 - git pull --rebase origin master
