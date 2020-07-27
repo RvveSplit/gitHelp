@@ -10,6 +10,8 @@ git config --global user.name "John Doe"	(MAKE SURE TO DO IT WITH QOUTES)
 git config --global user.email "johndoe@gmail.com" (MAKE SURE TO DO IT WITH QOUTES)
 
 
+https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
+
 - git push -u origin master
 (ใส่รหัlบัญชี github เราที่จะ Upload)
 OR
