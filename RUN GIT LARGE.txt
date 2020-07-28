@@ -14,6 +14,9 @@ https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-
 - git push -u origin master (MAKE SURE TO SPELL ORIGIN RIGHT)
 (ใส่รหัlบัญชี github เราที่จะ Upload)
 OR
+
+-git pull origin master (maybe. idk when to use this) 
+
 - git pull --rebase origin master
 - git push origin master
 
