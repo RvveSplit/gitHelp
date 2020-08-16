@@ -25,3 +25,16 @@ error: failed to push some refs)
 
 VVVVVVV
 git push --force origin master
+
+----------------------------
+
+github credential issues fix:
+https://stackoverflow.com/questions/18842120/git-pushing-to-a-private-repo
+
+I was facing the same problem. I was able to solve this by removing old credentials from windows.
+
+|    Open Control Panel from the Start menu
+|    Go to User Accounts -> Credential Manager -> Manage Windows Credentials
+|    Delete any credentials related to Git or GitHub
+
+Once I did this, it started working again.
