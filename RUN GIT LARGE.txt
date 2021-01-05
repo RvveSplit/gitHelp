@@ -38,3 +38,19 @@ I was facing the same problem. I was able to solve this by removing old credenti
 |    Delete any credentials related to Git or GitHub
 
 Once I did this, it started working again.
+------------------------------
+github wipe and re push to repo:
+
+"""
+First, remove all files from your Git repository using: git rm -r *
+
+After that you should commit: using git commit -m "your comment"
+
+After that you push using: git push (that's update the origin repository)
+
+To verify your status using: git status
+
+After that you can copy all your local files in the local Git folder, and you add them to the Git repository using: git add -A
+
+You commit (git commit -m "your comment" and you push (git push)
+"""
