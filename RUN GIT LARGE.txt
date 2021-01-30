@@ -3,7 +3,7 @@ RUN GIT LARGE:
 - git init 
 - git remote add origin "MY-URL" (do: git remote remove origin ,if you have issues with "fatal remote origin already exists"
 - git lfs track "*.weights" (do this when github accidentaly tracks or adds files: git rm -r "filename")
-- git add yolov3.weights (do this when github accidentaly tracks or adds files: git rm -r "filename")
+- git add yolov3.weights (do this when github accidentaly tracks or adds files: git rm -r "filename", Might have to do: git add folder/*) 
 - git commit -m "Add Comments"
 (git commit -m แล้ว Error ใส่ email บัญชี github เราที่จะ Upload)
 git config --global user.name "John Doe"	(MAKE SURE TO DO IT WITH QOUTES)
